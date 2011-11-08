@@ -12,12 +12,12 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="span6">
-          <h2>Portfolio</h2>
+          <h2>Portfolio<img src="{{url_for('static', filename='down.jpg')}}"/></h2>
           <p>Below the fold please find some snapshots and descriptions of previous work.</p>
         </div>
         <div class="span5">
           <h2>Who We Are</h2>
-           <p> My name is Robert Berry.  I work with a loose cohort of excellent software developers, designers, and domain experts.</p>
+           <p> My name is <a href="http://github.com/bdigital" style="text-decoration:none; color: green">Robert Berry</a>.  I work with a loose cohort of excellent software developers, designers, and domain experts.</p>
        </div>
         <div class="span5">
           <h2>Get In Touch</h2>
@@ -31,7 +31,8 @@
         <div class="container">
           <br/>
           <h1 class="light">Fit.io</h1>
-          <p class="light"></p>
+          <p class="light">How much are you worth in the labor market?  What opportunities are available to you, right now?  This is a project to aggregate and search classified job ads as well as salary statistics, enabling job seekers to make informed employment decisions.  It has already indexed half a million software development classified ads.  Try it out:</p>
+          <br/><br/><br/>
           <a href="http://fit.io" style="border: 0">
             <img src="{{url_for('static', filename='fitio.png')}}">
           </a>

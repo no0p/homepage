@@ -1,6 +1,7 @@
 /*custom stuff here*/
 .fitio_block {
-  background-color: #1E2026; height: 850px;
+  background-color: #1E2026; 
+  height: 650px;
 }
 .timetool_block {
   background: #F1EDE6 url('/static/soft_wallpaper.png'); 
