@@ -1,3 +1,31 @@
+/*custom stuff here*/
+.fitio_block {
+  background-color: #1E2026; height: 850px;
+}
+.timetool_block {
+  background: #F1EDE6 url('/static/soft_wallpaper.png'); 
+  height: 800px;
+}
+.cascade_block {
+  background: #F1EDE6 url('/static/grunge_wall.png'); 
+  height: 800px;
+}
+
+h1.dark {
+  font-size: 50px;
+  color: #1E2026;
+} 
+p.dark {
+  color: #1E2026;
+}
+h1.light {
+  font-size: 50px;
+  color: white;
+}
+p.light {
+  color: white;
+}
+
 /*!
  * Bootstrap v1.3.0
  *
@@ -1686,7 +1714,7 @@ a.menu:after, .dropdown-toggle:after {
   color: #404040;
 }
 .hero-unit {
-  background-color: #f5f5f5;
+  background-color: #c9c9c9;
   margin-bottom: 30px;
   padding: 60px;
   -webkit-border-radius: 6px;

@@ -1,28 +1,60 @@
 {% extends "layout.html" %}
 {% block body %}
-    <!-- Main hero unit for a primary marketing message or call to action -->
+    <div class="container">
+      <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
-        <h1>Hello, world!</h1>
-        <p>Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        <p><a class="btn primary large">Learn more &raquo;</a></p>
+        <center>
+          <img src="{{ url_for('static', filename='oakland_digital.png') }}"/>
+          <p>Ruby on Rails application development.  Non-rigorous statistical analysis.</p>
+        </center>
       </div>
 
       <!-- Example row of columns -->
       <div class="row">
         <div class="span6">
-          <h2>Heading</h2>
-          <p>Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+          <h2>Portfolio</h2>
+          <p>Below the fold please find some snapshots and descriptions of previous work.</p>
         </div>
         <div class="span5">
-          <h2>Heading</h2>
-           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+          <h2>Who We Are</h2>
+           <p> My name is Robert Berry.  I work with a loose cohort of excellent software developers, designers, and domain experts.</p>
        </div>
         <div class="span5">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+          <h2>Get In Touch</h2>
+          <p>It's always good to talk.  Get in touch at <strong>berrydigital@gmail.com</strong> or at <strong>503.504.3151</strong>.</p>
+        </div>
+      </div>
+      <br/>
+    </div>
+
+      <div class="fitio_block">
+        <div class="container">
+          <br/>
+          <h1 class="light">Fit.io</h1>
+          <p class="light"></p>
+          <a href="http://fit.io" style="border: 0">
+            <img src="{{url_for('static', filename='fitio.png')}}">
+          </a>
+        </div>
+      </div>
+      <div class="timetool_block">
+        <div class="container">
+        <br/>
+        <h1 class="dark">Timetool.org</h1>
+        <p class="dark">Do you know where you spend your time?  Do you know what you enjoy doing most?  I threw this application together over a long weekend to help me answer questions like these.  Try it out: keep track of your daily activities and review the data neatly summarized in some simple visulaizations.</p><br/>
+        <center>
+          <a href="http://timetool.org" style="border: 0">
+            <img src="{{url_for('static', filename='timetool.png')}}">
+          </a>
+        </center>
+        </div>
+      </div>
+      
+      
+      <div class="cascade_block">
+        <div class="container">
+          <br/>
+          <h1 class="light">Cascade Rate</h1>
         </div>
       </div>
 {% endblock %}

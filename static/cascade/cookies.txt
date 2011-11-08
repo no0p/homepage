@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.cascaderate.com	TRUE	/	FALSE	1999999999	_rater_session	279c4d4249fb2d9548be3de7c16d7d4d
+
