@@ -1,7 +1,7 @@
 /*custom stuff here*/
 .fitio_block {
   background-color: #1E2026; 
-  height: 650px;
+  height: 725px;
 }
 .timetool_block {
   background: #F1EDE6 url('/static/soft_wallpaper.png'); 
@@ -9,7 +9,7 @@
 }
 .cascade_block {
   background: #F1EDE6 url('/static/grunge_wall.png'); 
-  height: 1000px;
+  height: 1100px;
 }
 .data_block {
   background: #F1EDE6 url('/static/bright_squares.png'); 
@@ -25,6 +25,9 @@ p.dark {
 }
 h1.light {
   font-size: 50px;
+  color: white;
+}
+h2.light {
   color: white;
 }
 p.light {
@@ -472,6 +475,7 @@ h6 {
   font-weight: bold;
   color: #404040;
 }
+
 h1 small,
 h2 small,
 h3 small,

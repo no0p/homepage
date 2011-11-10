@@ -1,15 +1,14 @@
 {% extends "layout.html" %}
 {% block body %}
     <div class="container">
-      <!-- Main hero unit for a primary marketing message or call to action -->
+
       <div class="hero-unit">
         <center>
           <img src="{{ url_for('static', filename='oakland_digital.png') }}"/>
-          <p>Ruby on Rails application development.  Non-rigorous statistical analysis.</p>
+          <p>Ruby on Rails application development.  Statistics and data services.</p>
         </center>
       </div>
 
-      <!-- Example row of columns -->
       <div class="row">
         <div class="span6">
           <h2>Portfolio<img src="{{url_for('static', filename='down.jpg')}}"/></h2>
@@ -31,18 +30,36 @@
         <div class="container">
           <br/>
           <h1 class="light">Fit.io</h1>
-          <p class="light">How much are you worth in the labor market?  What opportunities are available to you, right now?  This is a project to aggregate and search classified job ads as well as salary statistics, enabling job seekers to make informed employment decisions.  It has already indexed half a million software development classified ads.  Try it out:</p>
+          <p class="light">How much are you worth in the labor market?  What opportunities are available to you, right now?  This is a project to aggregate and search classified job ads as well as salary statistics, enabling job seekers to make informed employment decisions.  <a href="http://fit.io" style="color:green">Try it out:</a></p>
           <br/><br/><br/>
           <a href="http://fit.io" style="border: 0">
             <img src="{{url_for('static', filename='fitio.png')}}">
           </a>
+          <br/><br/><br/><br/>
+          <div class="row">
+            <div class="span6">
+              <h2 class="light">Data Normalization</h2>
+              <p class="light">Processed 2GB of Bureau of Labor Statistics data and H1B filings to build a salary model.</p>
+            </div>
+            <div class="span5">
+              <h2 class="light">NLP</h2>
+               <p class="light">Research in probabilistic lexical colocation models to classify company names in unstructured text data.</p>
+           </div>
+            <div class="span5">
+              <h2 class="light">Data Processing</h2>
+              <p class="light">Horizontally scalable processing infrastructure allows crawling and indexing millions of job ads in stride.</p>
+            </div>
+          </div>
+          <br/>
+          
         </div>
+        
       </div>
       <div class="timetool_block">
         <div class="container">
         <br/>
         <h1 class="dark">Timetool.org</h1>
-        <p class="dark">Do you know where you spend your time?  Do you know what you enjoy doing most?  I threw this application together over a long weekend to help me answer questions like these.  Try it out: keep track of your daily activities and review the data neatly summarized in some simple visulaizations.</p><br/>
+        <p class="dark">Do you know where you spend your time?  Do you know what you enjoy doing most?  I threw this application together over a long weekend to help me answer questions like these.  <a href="http://timetool.org" style="color:green">Try it out</a>: keep track of your daily activities and review the data neatly summarized in some simple visulaizations.</p><br/>
         <center>
           <a href="http://timetool.org" style="border: 0">
             <img src="{{url_for('static', filename='timetool.png')}}">
@@ -56,7 +73,7 @@
         <div class="container">
           <br/>
           <h1 class="light">Cascade Rate</h1>
-          <p class="light">Hotel owners make a lot of pricing decisions every day.  Monitoring competitor pricing is a key factor.  Cascade Rate collected and normalized pricing data from across the web to provide statistical summaries on the hotel room market.</p>
+          <p class="light">Hotel owners make a lot of pricing decisions every day.  Monitoring competitor pricing is a key factor.  Cascade Rate collected and normalized pricing data from across the web to provide statistical summaries on the local hotel room markets.</p>
           <center>
           
           <div id="waterwheel-carousel-default">
@@ -78,13 +95,25 @@
           </div>
     
           </center>
-        </div>
-      </div>
-      
-      <div class="data_block">
-        <div class="container">
+          
+                    <br/><br/><br/><br/>
+          <div class="row">
+            <div class="span6">
+              <h2 class="light">Distributed Computing</h2>
+              <p class="light">Utilized Amazon EC2 to crawl and process data across up to 40 machines at a time.</p>
+            </div>
+            <div class="span5">
+              <h2 class="light">Visualization</h2>
+               <p class="light">Created numerous original data visualizations to explore competitive landscape.</p>
+           </div>
+            <div class="span5">
+              <h2 class="light">Storage at Scale</h2>
+              <p class="light">Stored large quantities of hotel rate data in sharded database infrastructure.</p>
+            </div>
+          </div>
           <br/>
-          <h1 class="dark">Data Services</h1>
+          
         </div>
       </div>
+    
 {% endblock %}
