@@ -9,6 +9,10 @@
 }
 .cascade_block {
   background: #F1EDE6 url('/static/grunge_wall.png'); 
+  height: 1000px;
+}
+.data_block {
+  background: #F1EDE6 url('/static/bright_squares.png'); 
   height: 800px;
 }
 
@@ -27,6 +31,34 @@ p.light {
   color: white;
 }
 
+/********************
+Default Example
+*********************/
+#waterwheel-carousel-default {
+  width:960px;
+  height:700px;
+  font-family: Arial;
+  font-size:14px;
+  position:relative;
+  clear:both;
+}
+#waterwheel-carousel-default a {
+  color:#ccc;
+}
+#waterwheel-carousel-default .carousel-images img {
+  visibility:hidden;
+  cursor:pointer;
+}
+#waterwheel-carousel-default .carousel-controls .carousel-prev {
+  position:absolute;
+  bottom:30px;
+  left:30px;
+}
+#waterwheel-carousel-default .carousel-controls .carousel-next {
+  position:absolute;
+  bottom:30px;
+  right:30px;
+}
 /*!
  * Bootstrap v1.3.0
  *
